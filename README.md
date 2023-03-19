@@ -4,7 +4,12 @@ This is an interview question generator app adapted from the OpenAI API [quickst
 
 Live site: www.generateinterviewquestions.com
 
-If you like what you see and want to re-create /improve this site, feel free to clone/fork this repo and follow the instructions below to get up and running ! Issues/Pull requests are welcome
+<img width="616" alt="interviewQGenerator" src="https://user-images.githubusercontent.com/90865869/226148907-69374f14-a99c-480e-a137-697bceb14d0b.png">
+
+
+If you like what you see and want to re-create /improve this site, feel free to clone/fork this repo and follow the instructions below to get up and running ! Issues/Pull requests are welcome.
+
+The site could quiet readily be adapted for other specific use cases by changing the API prompt in the generate.js file.
 
 ## Setup
 
