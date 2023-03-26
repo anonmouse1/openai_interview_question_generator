@@ -1,0 +1,20 @@
+# v1.0 public
+version: 2
+updates:
+  - package-ecosystem: "npm" 
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+   # Specify labels for npm pull requests
+    labels:
+      - "npm"
+      - "dependencies"
+# Add reviewers
+    reviewers:
+      - "anonmouse1"
+     # Add assignees
+    assignees:
+      - "anonmouse1"
+    commit-message:
+      # Prefix all commit messages with "npm: "
+      prefix: "npm"
