@@ -36,7 +36,7 @@ The site could quiet readily be adapted for other specific use cases by changing
 
 6. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file(eg.use nano or edit in an IDE)
 
-7. Create a Firestore project and a firebase database and copy the credentials from the Firebase console into const firebaseConfig in index.js(https://firebase.google.com/docs/firestore/quickstart)(see "AddFirebase to your web app" from the project dashboard). The firebase collection should be called "questions" and the document should be called "questions" also.There are three fields in the firebase document questions: "date" type = timestamp, "jobTitle" type = strign and "questions" type = array.
+7. Create a Firestore project and a firebase database and copy the credentials from the Firebase console into const firebaseConfig in index.js(https://firebase.google.com/docs/firestore/quickstart)(see "AddFirebase to your web app" from the project dashboard). The firebase collection should be called "questions" and the document should be called "questions" also.There are three fields in the firebase document questions: "date" type = timestamp, "jobTitle" type = string and "questions" type = array.
 
 8. Run the app
 
