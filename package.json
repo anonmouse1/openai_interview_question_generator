@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "firebase": "^9.22.0",
+    "firebase": "^10.10.0",
     "lottie-web": "^5.12.2",
     "next": "^13.4.2",
     "openai": "^3.3.0",
